@@ -7,6 +7,4 @@ public interface PhoneInterface {
 	public default void printLogo() {
 		System.out.println("----PHONE----");
 	}
-	
-
 }
