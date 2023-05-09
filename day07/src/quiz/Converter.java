@@ -7,6 +7,7 @@ public abstract class Converter {
 	abstract public String srcString();
 	abstract public String destString();
 	protected double ratio;
+	protected double src;
 	public void converting() {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println(srcString()+"을 "+destString()+"로 바꾸어 줍니다.");
